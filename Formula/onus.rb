@@ -2,28 +2,28 @@
 class Onus < Formula
   desc "Turns a pull request into a short report of changes in meaning"
   homepage "https://onushq.com"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/onushq/onus/releases/download/v0.1.0/onus-aarch64-apple-darwin.tar.gz"
-      sha256 "bad6a869c75ebfe6dceaf7396e44fc45200d9aea3258fc6d86fb103ac1890738"
+      url "https://github.com/onushq/onus/releases/download/v0.2.0/onus-aarch64-apple-darwin.tar.gz"
+      sha256 "987236f9773be18b3fdb471a281789318a7d49c880626e182cd46d1f6e99fe5d"
     end
     on_intel do
-      url "https://github.com/onushq/onus/releases/download/v0.1.0/onus-x86_64-apple-darwin.tar.gz"
-      sha256 "f2b2dbe43231ac333c201889814004998f63987a46399debfc4d09d73db9550b"
+      url "https://github.com/onushq/onus/releases/download/v0.2.0/onus-x86_64-apple-darwin.tar.gz"
+      sha256 "a9e08ac9eb7b16b01f02f64cbbca419240f1485ceb3247e0a151f63fb114fe23"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/onushq/onus/releases/download/v0.1.0/onus-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a7baeefe5f2ba1be19f783eb85bf3101c50caf7b451caff2a56d46df9522250f"
+      url "https://github.com/onushq/onus/releases/download/v0.2.0/onus-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "823209ba180372325ca7bc71d914ac2eaa3035117fc12deef185ebe937c62d22"
     end
     on_intel do
-      url "https://github.com/onushq/onus/releases/download/v0.1.0/onus-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "423144dc52fab91a1b9d583426adf8b600e3f9c412103b705dadd4aecc0ae8f2"
+      url "https://github.com/onushq/onus/releases/download/v0.2.0/onus-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2862a1f1d34c743e9c53ff0c94d254f45b6aebc482f17f3bd79b0687c9e6d7d1"
     end
   end
 

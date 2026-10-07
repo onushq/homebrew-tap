@@ -2,7 +2,6 @@
 class Onus < Formula
   desc "Turns a pull request into a short report of changes in meaning"
   homepage "https://onushq.com"
-  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do

@@ -6,23 +6,23 @@ class Onus < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/onushq/onus/releases/download/v0.4.1/onus-aarch64-apple-darwin.tar.gz"
-      sha256 "a38d6852b26a48ef1a7160502b08f7135149d09db83e0ea3410c295cde66b773"
+      url "https://github.com/onushq/onus/releases/download/v0.5.0/onus-aarch64-apple-darwin.tar.gz"
+      sha256 "df9fd9059929c7270bbb86a1be72015e633204d06eb60b9f4f5fb771f91642bf"
     end
     on_intel do
-      url "https://github.com/onushq/onus/releases/download/v0.4.1/onus-x86_64-apple-darwin.tar.gz"
-      sha256 "6b6d4147ae8f9609e8aac959b06f46795b82bc7da6ba25747d22e21a5ba20302"
+      url "https://github.com/onushq/onus/releases/download/v0.5.0/onus-x86_64-apple-darwin.tar.gz"
+      sha256 "d58db76c7320330a58b970259a10f34537e3c29c8537e667d9f77cc65ff55b0c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/onushq/onus/releases/download/v0.4.1/onus-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "fde2650049ce7c33d4e622be422c63d7145e3e123a62ed75994e3bb751e715bc"
+      url "https://github.com/onushq/onus/releases/download/v0.5.0/onus-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "146d06c12e1af1ec5ad9f3828dfd9cfa633f9d8e61bc15d656aadda0811d0f77"
     end
     on_intel do
-      url "https://github.com/onushq/onus/releases/download/v0.4.1/onus-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c568736f0380beedfadc506bd0feb87e61fc3545222725c905b0cf8344a2f41a"
+      url "https://github.com/onushq/onus/releases/download/v0.5.0/onus-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "da46a4efcc074590b176d83c10fd36d899b9629e9ac82aad8c7c24d26ff6d219"
     end
   end
 
